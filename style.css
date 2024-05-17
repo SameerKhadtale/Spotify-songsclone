@@ -198,7 +198,21 @@ color: white
  .playbar{
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 88%;
     padding: 15px;
     background-color: #1fdf64;
  }
+
+ .songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.songlist ul{
+    padding: 0 35px;
+}
+
+.songlist ul li{
+    list-style-type: decimal;
+}
