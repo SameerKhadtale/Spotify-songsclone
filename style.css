@@ -150,3 +150,27 @@ color: white
 .footer a{
     color: gray;
 }
+
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.card *{
+    padding-top: 10px;
+}
+
+.card{
+    width: 220px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #252525;
+
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
